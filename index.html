@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My favorite snacks</title>
+  </head>
+  <body>
+    <h1 class="header">My Favorite Snacks</h1>
+    <p class="description">(Click each box for more info)</p>
+    <div class="container">
+      <div class="show-modal choco">Mint Choco Chip Ice Cream</div>
+      <div class="show-modal fries">French Fries</div>
+      <div class="show-modal tea">Milk tea</div>
+    </div>
+
+    <div class="choco-modal modal hidden">
+      <button class="close-modal choco">&times;</button>
+      <p>
+        Mint choco chip ice cream is my favorite ice cream flavor of all time.
+      </p>
+      <img
+        src="https://bakingamoment.com/wp-content/uploads/2019/08/IMG_5976-mint-chocolate-chip-ice-cream-1.jpg"
+      />
+    </div>
+    <div class="fries-modal modal hidden">
+      <button class="close-modal fries">&times;</button>
+      <p>Sometimes, you just need a good fry.</p>
+      <img
+        src="https://thumbor.thedailymeal.com/Kqs10n_zoYMq7a3i6r7frrm6aXk=/870x565/filters:focal(585x390:586x391)/https://www.thedailymeal.com/sites/default/files/recipe/2017/shutterstock_510881971.jpg"
+      />
+    </div>
+    <div class="tea-modal modal hidden">
+      <button class="close-modal tea">&times;</button>
+      <p>
+        Black milk tea is a go-to that never fails. Otherwise brown sugar milk
+        is always bomb
+      </p>
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/58d1f7308419c23d328cdb22/1559894022209-RV13I0JU6Y5N4P7XZKQU/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/Brown+Sugar+Bubble+Tea"
+        alt=""
+      />
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
